@@ -1,0 +1,7 @@
+<div [ngClass]="getRoleClass()">
+  <router-outlet></router-outlet>
+</div>
+
+<app-spinner [visible]="showModalLoading"></app-spinner>
+
+<app-error [visible]="showError"></app-error>
